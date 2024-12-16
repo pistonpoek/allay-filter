@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "io.github.pistonpoek.allayfilter.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "AllayEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

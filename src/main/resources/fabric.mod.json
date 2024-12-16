@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "allay-filter",
+	"version": "${version}",
+	"name": "Allay Filter",
+	"description": "",
+	"authors": [
+		"pistonpoek"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "",
+	"icon": "assets/allay-filter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.pistonpoek.allayfilter.AllayFilter"
+		],
+		"client": [
+			"io.github.pistonpoek.allayfilter.AllayFilterClient"
+		]
+	},
+	"mixins": [
+		"allay-filter.mixins.json",
+		{
+			"config": "allay-filter.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": ""
+	}
+}
