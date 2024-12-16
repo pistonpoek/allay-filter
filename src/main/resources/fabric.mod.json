@@ -3,7 +3,7 @@
 	"id": "allay-filter",
 	"version": "${version}",
 	"name": "Allay Filter",
-	"description": "",
+	"description": "Bundles behave as filters for an allay. Allowing players to specify a set of items or even all items!",
 	"authors": [
 		"pistonpoek"
 	],
