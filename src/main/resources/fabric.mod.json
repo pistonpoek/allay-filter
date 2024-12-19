@@ -8,8 +8,9 @@
 		"pistonpoek"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"email": "pistonpoek@gmail.com",
+		"homepage": "https://modrinth.com/mod/allay-filter",
+		"sources": "https://github.com/pistonpoek/allay-filter"
 	},
 	"license": "",
 	"icon": "assets/allay-filter/icon.png",
@@ -36,6 +37,5 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": ""
 	}
 }
